@@ -1,0 +1,70 @@
+/*vista tablet*/
+@media (max-width:1023px){
+    /*header*/
+    .encabezado{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    /*banner*/
+    .BannerContenido p{
+        font-size: 1.5rem;
+    }
+    /*unidades*/
+    .unidades h1 {
+        font-size: 4rem;
+    }
+
+    .unidades h2{
+        font-size: 3rem;
+    }
+
+    .unidades ul li {
+        font-size: 3rem;
+    }
+
+    .contenedorunidades {
+        grid-template-columns: 1fr;
+        }
+
+        .unidades img {
+            max-width: 100%;
+        }
+
+
+        .unidades h3,
+        .unidades p{
+            font-size: 2rem;
+        }
+
+    /*cuartel*/
+    .cuartel p{
+        font-size: 3rem;
+    }
+
+    /*contacto*/
+    .formulario{
+        width: 70%;
+    }
+    .nav ul li{
+        font-size: 3rem;
+    }
+
+    /*footer*/
+    .footerContenido{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+/*vista movil*/
+
+@media (max-width:768px) {
+    /*unidades*/
+
+    .contenedorunidades {
+        grid-template-columns: 1fr;
+    }
+}
